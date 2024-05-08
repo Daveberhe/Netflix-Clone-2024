@@ -40,9 +40,9 @@ const Banner = () => {
           <button className="banner_button play">play</button>
           <button className="banner_button ">My list</button>
           <div>
-            <h1 className="banner_description">
+            <h3 className="banner_description">
               {truncate(movie?.overview, 150)}
-            </h1>
+            </h3>
           </div>
         </div>
       </div>

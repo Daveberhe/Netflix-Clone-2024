@@ -45,3 +45,9 @@
   font-style: 12px;
   margin-bottom: 10px;
 }
+@media screen and (max-width: 1000px) {
+  .footer_data {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}

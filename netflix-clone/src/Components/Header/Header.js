@@ -26,9 +26,9 @@ const Header = () => {
             <li>Home</li>
             <li>TVshows</li>
             <li>Movies</li>
-            <li>Latest</li>
-            <li>Mylist</li>
-            <li>Browse by language</li>
+            <li className="header_links ">Latest</li>
+            <li className="header_links">Mylist</li>
+            <li className="header_links">Browse by language</li>
           </ul>
         </div>
         <div className="header_right">

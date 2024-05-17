@@ -46,3 +46,13 @@
   text-decoration: none;
   color: white;
 }
+@media screen and (max-width: 950px) {
+  .header_links {
+    display: none;
+  }
+}
+/* @media screen and (max-width: 800px) {
+  .movies .mylist {
+    display: none;
+  }
+} */
